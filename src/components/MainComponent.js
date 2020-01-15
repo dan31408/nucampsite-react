@@ -9,8 +9,9 @@ import Contact from './ContactComponent';
 import { COMMENTS } from '../shared/Comments.js';
 import { PARTNERS } from '../shared/Partners.js';
 import { PROMOTIONS } from '../shared/Promotions.js';
+import { CAMPSITES } from '../shared/campsites.js';
 import { Switch, Route, Redirect } from 'react-router-dom';
-import { CAMPSITES } from '../shared/campsites';
+
 
 class Main extends Component {
     constructor(props) {
