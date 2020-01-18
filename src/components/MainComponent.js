@@ -19,10 +19,7 @@ const mapStateToProps = state => {
 };
 
 class Main extends Component {
-
-    
-}
-
+ 
     render() {
         const HomePage = () => {
             return (
@@ -32,6 +29,7 @@ class Main extends Component {
                 />
             );
         };
+    
         
         const CampsiteWithId = ({match}) => {
             return (
@@ -58,6 +56,7 @@ class Main extends Component {
         );
     }
 }
+
 
 
 
